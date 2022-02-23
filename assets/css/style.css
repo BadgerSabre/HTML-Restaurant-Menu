@@ -15,6 +15,7 @@ h3,
 p,
 li {
     color: green;
+    text-align: center;
 }
 
 img {
@@ -53,13 +54,13 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 25%;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 25%;
     height: auto;
 }
 
@@ -83,4 +84,15 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+#locations_list {
+    text-align: center;
+    list-style-position: inside;
+    margin-right: 45px;
+}
+#attention {
+    color: red;
+}
+.highlighted {
+    color: darkred;
 }
